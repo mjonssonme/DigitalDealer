@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_digidealer.GetChildGroups</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GetChildGroups</name>
+        <script><![CDATA[var GetChildGroups = Class.create();
+var finalArray = [];
+GetChildGroups.prototype = {
+    initialize: function() {
+    },
+
+	childGroups: function(parentGroup) {
+		var oldParent;
+		var gr = new GlideRecord('sys_user_group');
+		gr.addQuery('parent', parentGroup.sys_id);
+		gr.query();
+		while (gr.next()) {
+			finalArray.push(gr.getValue('name'));
+			while (gr.parent !== oldParent) {
+				this.childGroups(gr);
+				oldParent = gr.parent;
+			}
+		}
+		return finalArray;
+	},
+	
+    type: 'GetChildGroups'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-25 08:24:27</sys_created_on>
+        <sys_id>3948602edb4880101196f9e1399619f3</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>GetChildGroups</sys_name>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_script_include_3948602edb4880101196f9e1399619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-25 12:08:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

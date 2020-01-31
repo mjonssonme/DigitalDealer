@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Area" max_length="40" name="x_snc_digidealer_area" type="collection">
+        <element label="Level" max_length="40" name="level" type="integer"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="tree_view=true" label="Parent" max_length="32" name="parent" reference="x_snc_digidealer_area" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

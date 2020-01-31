@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <connection_type>http_connection</connection_type>
+        <id>x_snc_digidealer.RapidAPI</id>
+        <multiple_connections>true</multiple_connections>
+        <name>RapidAPI</name>
+        <retry_policy/>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 13:08:46</sys_created_on>
+        <sys_id>f0222aa3dba1f74005fb4a92ba961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_digidealer.RapidAPI</sys_name>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_alias_f0222aa3dba1f74005fb4a92ba961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 13:08:46</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

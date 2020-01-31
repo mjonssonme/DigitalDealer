@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_rule_name" label="Rule name" language="en" table="x_snc_digidealer_fault_codes_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_rule_name</element>
+            <help/>
+            <hint/>
+            <label>Rule name</label>
+            <language>en</language>
+            <name>x_snc_digidealer_fault_codes_import</name>
+            <plural>Rule names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-24 09:21:22</sys_created_on>
+            <sys_id>be515a26db6d734005fb4a92ba96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rule name</sys_name>
+            <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_digidealer_fault_codes_import_u_rule_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-24 09:21:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DataBlob" max_length="40" name="x_snc_digidealer_datablob" type="collection">
+        <element label="Json Blob" max_length="20000" name="json_blob" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

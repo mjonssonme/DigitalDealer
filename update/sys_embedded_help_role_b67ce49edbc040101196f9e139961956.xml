@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_digidealer.area_level_1" name="x_snc_digidealer.area_level_1">925c689edbc040101196f9e13996196c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 13:59:07</sys_created_on>
+        <sys_id>b67ce49edbc040101196f9e139961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>925c689edbc040101196f9e13996196c</sys_name>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b67ce49edbc040101196f9e139961956</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 13:59:07</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

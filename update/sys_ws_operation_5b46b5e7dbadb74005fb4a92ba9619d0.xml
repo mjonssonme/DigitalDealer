@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>push faults</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	var jsonBody = request.body.data;
+	gs.info("Product = " + jsonBody.product.type);
+	var diagnosticAddress = jsonBody.diagnosticServers.items[0].diagnosticAddress;
+	gs.info("Diagnostic Address = " +JSON.stringify(diagnosticAddress));
+	var diagnosticFamily = jsonBody.diagnosticServers.items[0].diagnosticFamily;
+	gs.info("Diagnostic Family = " +JSON.stringify(diagnosticFamily));
+	var diagnosticGeneration = jsonBody.diagnosticServers.items[0].diagnosticGeneration;
+	gs.info("Diagnostic Generation = " +JSON.stringify(diagnosticGeneration));
+	var diagnosticCode = jsonBody.diagnosticServers.items[0].diagnosticCodes.items[0].number;
+	gs.info("Diagnostic Code = " +JSON.stringify(diagnosticCode)); 
+
+	return 0;
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_digidealer/fault/faults</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/faults</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 09:58:04</sys_created_on>
+        <sys_id>5b46b5e7dbadb74005fb4a92ba9619d0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>push faults</sys_name>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_ws_operation_5b46b5e7dbadb74005fb4a92ba9619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 11:31:33</sys_updated_on>
+        <web_service_definition display_value="Fault">5b26f1e7dbadb74005fb4a92ba961944</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

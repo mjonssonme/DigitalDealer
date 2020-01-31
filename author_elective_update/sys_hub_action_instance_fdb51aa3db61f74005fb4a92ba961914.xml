@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Parse Vehicle Blob">23745263db61f74005fb4a92ba9619d7</action_type>
+        <action_type_parent display_value="Parse Vehicle Blob">f0509eebdb21f74005fb4a92ba961994</action_type_parent>
+        <comment/>
+        <compiled_snapshot>23745263db61f74005fb4a92ba9619d7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Flow on Blob">a1b5d6a3db61f74005fb4a92ba9619c4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:14:20</sys_created_on>
+        <sys_id>fdb51aa3db61f74005fb4a92ba961914</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_fdb51aa3db61f74005fb4a92ba961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:14:20</sys_updated_on>
+        <ui_id>7da68f04-4aac-4e1a-887a-56eab7689279</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=fdb51aa3db61f74005fb4a92ba961914"/>
+    <sys_element_mapping action="DELETE" query="id=fdb51aa3db61f74005fb4a92ba961914"/>
+    <sys_element_mapping action="DELETE">
+        <field>vin</field>
+        <id>fdb51aa3db61f74005fb4a92ba961914</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:14:20</sys_created_on>
+        <sys_id>7db51aa3db61f74005fb4a92ba961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:14:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_23745263db61f74005fb4a92ba9619d7</table>
+        <value>{{Created_1.current.json_blob}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</application>
+        <file_path/>
+        <instance_id>26149de0db48b74049eac597059619f1</instance_id>
+        <instance_name>gulletmadriddemo</instance_name>
+        <name>sys_hub_action_instance_fdb51aa3db61f74005fb4a92ba961914</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance"><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Parse Vehicle Blob">23745263db61f74005fb4a92ba9619d7</action_type><action_type_parent display_value="Parse Vehicle Blob">f0509eebdb21f74005fb4a92ba961994</action_type_parent><comment/><compiled_snapshot>23745263db61f74005fb4a92ba9619d7</compiled_snapshot><display_text/><flow display_value="Flow on Blob">a1b5d6a3db61f74005fb4a92ba9619c4</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-27 12:14:20</sys_created_on><sys_id>fdb51aa3db61f74005fb4a92ba961914</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package><sys_policy/><sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope><sys_update_name>sys_hub_action_instance_fdb51aa3db61f74005fb4a92ba961914</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-27 12:14:20</sys_updated_on><ui_id>7da68f04-4aac-4e1a-887a-56eab7689279</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=fdb51aa3db61f74005fb4a92ba961914"/><sys_element_mapping action="delete_multiple" query="id=fdb51aa3db61f74005fb4a92ba961914"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>vin</field><id>fdb51aa3db61f74005fb4a92ba961914</id><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-27 12:14:20</sys_created_on><sys_id>7db51aa3db61f74005fb4a92ba961919</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-27 12:14:20</sys_updated_on><table>var__m_sys_hub_action_input_23745263db61f74005fb4a92ba9619d7</table><value>{{Created_1.current.json_blob}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-2138981633</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ad4cc6eadb2d734005fb4a92ba9619a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:14:20</sys_created_on>
+        <sys_id>f5b51aa3db61f74005fb4a92ba96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16af936849a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:14:20</sys_updated_on>
+        <type>Action Instance</type>
+        <update_guid>bdb51aa39461f74073fdfa16d9b3f61a</update_guid>
+        <update_guid_history>bdb51aa39461f74073fdfa16d9b3f61a:-2138981633,bdb51aa35c61f7405d5eba03b247b116:-1864675609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:45:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_instance">sys_hub_action_instance</sys_db_object>
+        <sys_id>0288321ae1534d398dc0004739c2f931</sys_id>
+        <sys_metadata>fdb51aa3db61f74005fb4a92ba961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_scope_delete display_value="">98c5516ada344fd88fcb6ada3c395129</sys_scope_delete>
+        <sys_update_name>sys_hub_action_instance_fdb51aa3db61f74005fb4a92ba961914</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_instance_fdb51aa3db61f74005fb4a92ba961914">f5b51aa3db61f74005fb4a92ba96191b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:45:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

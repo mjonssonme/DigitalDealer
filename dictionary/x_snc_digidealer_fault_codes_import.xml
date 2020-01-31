@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="fault_codes_import" max_length="40" name="x_snc_digidealer_fault_codes_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Action" label="Action" max_length="73" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=fault code combination" label="fault code combination" max_length="90" name="u_fault_code_combination" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reason" label="Reason" max_length="168" name="u_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reference" label="Reference" max_length="203" name="u_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rule name" label="Rule name" max_length="40" name="u_rule_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Severity" label="Severity" max_length="40" name="u_severity" type="string"/>
+    </element>
+</database>

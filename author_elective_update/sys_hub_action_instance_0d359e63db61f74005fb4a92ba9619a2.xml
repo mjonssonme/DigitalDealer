@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Flow on Blob">370096ebdb21f74005fb4a92ba961980</flow>
+        <order>3.1</order>
+        <parent_ui_id>79d53b7c-c091-4e6c-bb7b-30bdf7f0f7df</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:12:06</sys_created_on>
+        <sys_id>0d359e63db61f74005fb4a92ba9619a2</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_update_name>sys_hub_action_instance_0d359e63db61f74005fb4a92ba9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:45:42</sys_updated_on>
+        <ui_id>7a1d8962-f2e2-4fee-b593-95466d016395</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0d359e63db61f74005fb4a92ba9619a2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0d359e63db61f74005fb4a92ba9619a2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:12:06</sys_created_on>
+        <sys_id>05359e63db61f74005fb4a92ba9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:13:19</sys_updated_on>
+        <value>Light turns RED and print TEXT</value>
+        <variable display_value="">c34aa006531003003bf1d9109ec587c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0d359e63db61f74005fb4a92ba9619a2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:14:18</sys_created_on>
+        <sys_id>19b5d6a3db61f74005fb4a92ba9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:14:18</sys_updated_on>
+        <value>Light turns RED and print TEXT</value>
+        <variable display_value="">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</application>
+        <file_path/>
+        <instance_id>26149de0db48b74049eac597059619f1</instance_id>
+        <instance_name>gulletmadriddemo</instance_name>
+        <name>sys_hub_action_instance_0d359e63db61f74005fb4a92ba9619a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance"><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type><action_type_parent/><comment/><compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot><display_text/><flow display_value="Flow on Blob">370096ebdb21f74005fb4a92ba961980</flow><order>3.1</order><parent_ui_id>79d53b7c-c091-4e6c-bb7b-30bdf7f0f7df</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-27 12:12:06</sys_created_on><sys_id>0d359e63db61f74005fb4a92ba9619a2</sys_id><sys_mod_count>15</sys_mod_count><sys_name/><sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package><sys_policy/><sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope><sys_update_name>sys_hub_action_instance_0d359e63db61f74005fb4a92ba9619a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-27 12:45:42</sys_updated_on><ui_id>7a1d8962-f2e2-4fee-b593-95466d016395</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=0d359e63db61f74005fb4a92ba9619a2"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>0d359e63db61f74005fb4a92ba9619a2</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-27 12:12:06</sys_created_on><sys_id>05359e63db61f74005fb4a92ba9619a8</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-27 12:13:19</sys_updated_on><value>Light turns RED and print TEXT</value><variable display_value="">c34aa006531003003bf1d9109ec587c4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>0d359e63db61f74005fb4a92ba9619a2</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-27 12:14:18</sys_created_on><sys_id>19b5d6a3db61f74005fb4a92ba9619a1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-27 12:14:18</sys_updated_on><value>Light turns RED and print TEXT</value><variable display_value="">23c1bcc6531003003bf1d9109ec587e5</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>920920032</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ad4cc6eadb2d734005fb4a92ba9619a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:45:42</sys_created_on>
+        <sys_id>0dec9aebdb61f74005fb4a92ba96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16af9533a0b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:45:42</sys_updated_on>
+        <type>Action Instance</type>
+        <update_guid>c1ec9aeb6b61f74034715e3fe9ccb72e</update_guid>
+        <update_guid_history>c1ec9aeb6b61f74034715e3fe9ccb72e:920920032,aa4bd66b3b61f740ce77df87e3a461c7:-1439615585,437a1a2ba061f740518886a7575beb15:920920032,3006d6277e61730045941ba6c9c5cb8a:-1439615585,1db5d6a39261f74092af235cfcda7da2:1084651581,5db5d6a30561f74099f1914ad22b6c9e:1929544067,fe7592a31361f74054211792106ee0f3:876146561,c5359e63e761f740b13f3dd82b4553a9:-565845105,0d359e633161f7400e5b1dca7b1dcca4:1493404503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 12:50:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_instance">sys_hub_action_instance</sys_db_object>
+        <sys_id>648be9bd91084985aa87909c9087e899</sys_id>
+        <sys_metadata>0d359e63db61f74005fb4a92ba9619a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+        <sys_scope_delete display_value="">98c5516ada344fd88fcb6ada3c395129</sys_scope_delete>
+        <sys_update_name>sys_hub_action_instance_0d359e63db61f74005fb4a92ba9619a2</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_instance_0d359e63db61f74005fb4a92ba9619a2">0dec9aebdb61f74005fb4a92ba96192e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 12:50:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

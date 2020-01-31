@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="diagnosticfamily" label="diagnosticFamily" language="en" table="var__m_sys_hub_action_output_f0509eebdb21f74005fb4a92ba961994">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>diagnosticfamily</element>
+            <help/>
+            <hint/>
+            <label>diagnosticFamily</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_f0509eebdb21f74005fb4a92ba961994</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 12:08:29</sys_created_on>
+            <sys_id>8864de23db61f74005fb4a92ba961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>diagnosticFamily</sys_name>
+            <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f0509eebdb21f74005fb4a92ba961994_diagnosticfamily_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 12:08:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

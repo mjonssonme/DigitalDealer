@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Fault Codes" max_length="40" name="x_snc_digidealer_fault_codes" type="collection">
+        <element display="true" label="Action" max_length="255" name="action" type="string_full_utf8"/>
+        <element display="true" label="Fault code combo" max_length="255" name="fault_code_combo" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Reason" max_length="255" name="reason" type="string_full_utf8"/>
+        <element display="true" label="Reference" max_length="255" name="reference" type="string_full_utf8"/>
+        <element display="true" label="Rule name" max_length="255" name="rule_name" type="string_full_utf8"/>
+        <element choice="1" display="true" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="0" value="Green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="Yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="2" value="Red"/>
+            </choice>
+        </element>
+    </element>
+</database>

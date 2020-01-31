@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="mileage" label="mileage" language="en" table="var__m_sys_hub_action_output_0ecc96ebdb61f74005fb4a92ba961935">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mileage</element>
+            <help/>
+            <hint/>
+            <label>mileage</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_0ecc96ebdb61f74005fb4a92ba961935</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 12:45:16</sys_created_on>
+            <sys_id>f2ccd6ebdb61f74005fb4a92ba961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mileage</sys_name>
+            <sys_package display_value="DigiDealer" source="x_snc_digidealer">5d4c82eadb2d734005fb4a92ba96196b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DigiDealer">5d4c82eadb2d734005fb4a92ba96196b</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0ecc96ebdb61f74005fb4a92ba961935_mileage_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 12:45:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
